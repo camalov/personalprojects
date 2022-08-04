@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.9.7
-Created-By: 1.8.0_201-b09 (Oracle Corporation)
-Class-Path: lib/mysql-connector-java-5.1.48-bin.jar lib/AbsoluteLayout
- .jar
-Main-Class: com.gui.frame.MainPage
-
