@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+}
+
+.mycontainer div {
+    margin: 0px 0px 10px 0px;
+}
+
+.control-panel {
+    border: 2px solid;
+}
+
+.control-panel input {
+    color: #dc5f10;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.control-panel label {
+    display: inline-block;
+    width: 20%;
+}
+
+.control-panel-group {
+    margin-top: 2px;
+}

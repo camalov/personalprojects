@@ -1,0 +1,1 @@
+package com.gui.elements;import javax.swing.JLabel;public interface FontManager {    public void setJLabelFont(String fontURL, JLabel jLabel, Float transform);}
