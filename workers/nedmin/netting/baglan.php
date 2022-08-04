@@ -6,10 +6,10 @@ session_start();
 
 <?php 
 
-$username="root";
-$password="123456789az";
+$username="*";
+$password="*";
 $server="localhost";
-$database="temirci";
+$database="*";
 
 $baglan=mysql_connect($server, $username, $password);
 mysql_query("SET NAMES UTF8");

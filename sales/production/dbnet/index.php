@@ -1,5 +1,5 @@
 <?php 
 
-	header("Location:../../dsds.php");
+	header("Location:../../404.php");
 
 ?>

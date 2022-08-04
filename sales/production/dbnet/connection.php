@@ -2,7 +2,7 @@
 
 try {
 
-	$db = new PDO("mysql:host=localhost; dbname=sales", 'root', '123456789az');
+	$db = new PDO("mysql:host=localhost; dbname=*", '*', '*');
 	
 } catch (PDOException $e) {
 
