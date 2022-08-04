@@ -1,0 +1,9 @@
+rewriteEngine on
+
+ErrorDocument 404 http://localhost/oyrenirem/Layihelerim/temirci/404.php
+
+RewriteRule ^elaqe$ elaqe.php [NC,L]
+RewriteRule ^sitemap.xml$ sitemap.php [NC,L]
+RewriteRule ^news$ news.php [NC,L]
+
+RewriteRule ^blog/([0-9]+)/([0-9]+)/([0-9a-zA-Z-_]+)$ blog.php?xeber_id=$1&xeber_xit=$2&xeber_ad=$3 [L,QSA]
